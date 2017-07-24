@@ -1,7 +1,8 @@
 # meta regressor
 from common_defs import *
 
-regressors = ( 'gb', 'rf', 'xt', 'sgd', 'polylearn_fm', 'polylearn_pn', 'keras_mlp' )
+#regressors = ( 'gb', 'rf', 'xt', 'sgd' )
+regressors = ( 'rf', 'gb' )
 
 # import all the functions
 for r in regressors:
